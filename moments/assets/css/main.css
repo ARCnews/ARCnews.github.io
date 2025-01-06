@@ -3166,14 +3166,29 @@ input, select, textarea {
 		padding: 0em 0 6em 0 ;
 	}
 
-		@media screen and (max-width: 736px) {
 
-			#main {
-				padding: 0em 0 4em 0 ;
-			}
 
-		}
-
+        
+        .container.hero-container {           
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #55b8e2;
+  max-height:: 350px;
+  
+  }
+  
+  .container.text-container {
+  text-align:center;
+  margin: 0 auto; 
+  padding-right: 10px;
+  padding-left: 10px;
+  max-width: 1040px;
+}
+        
+        
+        
+        
+        
 /* Footer */
 
 	#footer {
